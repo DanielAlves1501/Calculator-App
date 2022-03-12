@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator App</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap" rel="stylesheet">
+</head>
+<body class="body_background_theme1">
+    <main>
+        <div class="container">
+            <div class="calc_container">
+                <div class="calc_top_container calc_top_container_color_theme1">
+                    <div class="calc_name_container">
+                        <h1 class="calc__name">calc</h1>
+                    </div>
+                    <div class="calc_theme_container">
+                        <p class="theme">THEME</p>
+                        <div class="choose_theme_container">
+                            <div class="theme_number_container">
+                                <p class="theme__number" id="theme1">1</p>
+                                <p class="theme__number" id="theme2">2</p>
+                                <p class="theme__number" id="theme3">3</p>
+                            </div>
+                            <div class="theme_bar_container">
+                                <input type="range" min="0" max="2" value="0" step="1" class="theme__bar" id="theme__bar">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="calc__display calc_display_background_theme1" id="calc_display"></div>
+
+                <div class="calc_buttons_container calc_buttons_container_background_theme1">
+                    <div class="calc_button_grid">
+                        <button class="grid__item btn_theme1 btn" id="seven">7</button>
+                        <button class="grid__item btn_theme1 btn" id="eight">8</button>
+                        <button class="grid__item btn_theme1 btn" id="nine">9</button>
+                        <button class="grid__item btnDark btn_dark_theme1 btn" id="delete">DEL</button>
+                        <button class="grid__item btn_theme1 btn" id="four">4</button>
+                        <button class="grid__item btn_theme1 btn" id="five">5</button>
+                        <button class="grid__item btn_theme1 btn" id="six">6</button>
+                        <button class="grid__item btn_theme1 btn" id="sum">+</button>
+                        <button class="grid__item btn_theme1 btn" id="one">1</button>
+                        <button class="grid__item btn_theme1 btn" id="two">2</button>
+                        <button class="grid__item btn_theme1 btn" id="three">3</button>
+                        <button class="grid__item btn_theme1 btn" id="subtraction">-</button>
+                        <button class="grid__item btn_theme1 btn" id="dot">.</button>
+                        <button class="grid__item btn_theme1 btn" id="cero">0</button>
+                        <button class="grid__item btn_theme1 btn" id="division">/</button>
+                        <button class="grid__item btn_theme1 btn" id="multiplication">x</button>
+                        <button class="grid__item btn reset btnDark btn_dark_theme1 " id="reset">RESET</button>
+                        <button class="grid__item btn equal_theme1 equal " id="equal">=</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="js/main.js"></script>
+</body>
+</html>
